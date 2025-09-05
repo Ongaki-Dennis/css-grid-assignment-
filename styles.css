@@ -1,18 +1,38 @@
-Top Section
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f3f6fa;
+}
+
+/* Main Grid Container */
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+  width: 90%;
+  max-width: 900px;
+}
+
+/* Top Section Grid */
 .top-section {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 200px 1fr;
   background: #87CEEB;
   border-radius: 16px;
+  border: 2px solid #993366;
   padding: 20px;
   align-items: center;
-  border: 2px solid #993366;
 }
 
 /* Circle Profile Placeholder */
 .profile-pic {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid #993366;
   background: #b0e0e6;
@@ -27,7 +47,7 @@ Top Section
 .intro p {
   margin: 10px 0 0;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* Bottom Section Grid */
